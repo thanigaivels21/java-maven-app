@@ -5,25 +5,16 @@
 
   <servers>
     <server>
-      <id>mymaven-snapshots</id>
+      <id>java-maven-app-SNAPSHOT</id>
       <username>admin</username>
-      <password>Passw0rd</password>
+      <password>admin</password>
     </server>
     <server>
-      <id>mymaven-releases</id>
+      <id>java-maven-app-release</id>
       <username>admin</username>
-      <password>Passw0rd</password>
+      <password>admin</password>
     </server>
   </servers>
-
-  <mirrors>
-    <mirror>
-      <id>central</id>
-      <name>central</name>
-      <url>http://107.22.129.42:8081/repository/mymaven-central/</url>
-      <mirrorOf>*</mirrorOf>
-    </mirror>
-  </mirrors>
 
 
 </settings>
