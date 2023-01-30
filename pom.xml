@@ -80,12 +80,12 @@
 
     <distributionManagement>
     <snapshotRepository>
-      <id>java-maven-app-snapshots</id>
-      <url>http://65.0.60.215:8081/repository/java-maven-app-snapshots/</url>
+      <id>java-maven-app-SNAPSHOT</id>
+      <url>http://65.0.60.215:8081/repository/java-maven-app-SNAPSHOT/</url>
     </snapshotRepository>
     <repository>
-      <id>java-maven-app-releases</id>
-      <url>http://65.0.60.215:8081/repository/java-maven-app-releases/</url>
+      <id>java-maven-app-release</id>
+      <url>http://65.0.60.215:8081/repository/java-maven-app-release/</url>
     </repository>
   </distributionManagement>
 </project>
