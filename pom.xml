@@ -80,8 +80,8 @@
 
     <distributionManagement>
     <snapshotRepository>
-      <id>java-maven-app-SNAPSHOT</id>
-      <url>http://3.110.100.10:8081/repository/java-maven-app-SNAPSHOT/</url>
+      <id>java-maven-app-snapshot</id>
+      <url>http://3.110.100.10:8081/repository/java-maven-app-snapshot/</url>
     </snapshotRepository>
     <repository>
       <id>java-maven-app-release</id>
