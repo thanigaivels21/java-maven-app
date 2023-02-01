@@ -74,18 +74,18 @@
  <repositories>
     <repository>
       <id>java-maven-app-group</id>
-      <url>http://65.0.60.215:8081/repository/java-maven-app-group/</url>
+      <url>http://3.110.100.10:8081/repository/java-maven-app-group/</url>
     </repository>
   </repositories>
 
     <distributionManagement>
     <snapshotRepository>
       <id>java-maven-app-SNAPSHOT</id>
-      <url>http://65.0.60.215:8081/repository/java-maven-app-SNAPSHOT/</url>
+      <url>http://3.110.100.10:8081/repository/java-maven-app-SNAPSHOT/</url>
     </snapshotRepository>
     <repository>
       <id>java-maven-app-release</id>
-      <url>http://65.0.60.215:8081/repository/java-maven-app-release/</url>
+      <url>http://3.110.100.10:8081/repository/java-maven-app-release/</url>
     </repository>
   </distributionManagement>
 </project>
