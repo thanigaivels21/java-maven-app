@@ -6,13 +6,13 @@
   <servers>
     <server>
       <id>java-maven-app-snapshot</id>
-      <username>admin</username>
-      <password>admin</password>
+      <username>dinesh</username>
+      <password>dinesh</password>
     </server>
     <server>
       <id>java-maven-app-release</id>
-      <username>admin</username>
-      <password>admin</password>
+      <username>dinesh</username>
+      <password>dinesh</password>
     </server>
   </servers>
 
