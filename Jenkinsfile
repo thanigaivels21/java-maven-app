@@ -28,6 +28,11 @@ pipeline{
                     }
             }
         }
+        stage('nexus-upload'){
+            steps{
+                sh 'mvn -s settings.xml clean deploy'
+            }
+        }
     }
 
 }
