@@ -77,19 +77,19 @@
   </build>
  <repositories>
     <repository>
-      <id>java-maven-app-group</id>
-      <url>http://ec2-13-127-39-227.ap-south-1.compute.amazonaws.com:8081/repository/java-maven-app-group/</url>
+      <id>java-maven-group</id>
+      <url>http://ec2-65-0-116-44.ap-south-1.compute.amazonaws.com:8081/repository/maven-group/</url>
     </repository>
   </repositories>
 
     <distributionManagement>
     <snapshotRepository>
-      <id>java-maven-app-snapshots</id>
-      <url>http://ec2-13-127-39-227.ap-south-1.compute.amazonaws.com:8081/repository/java-maven-app-snapshots/</url>
+      <id>java-maven-snapshots</id>
+      <url>http://ec2-65-0-116-44.ap-south-1.compute.amazonaws.com:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
     <repository>
-      <id>java-maven-app-releases</id>
-      <url>http://ec2-13-127-39-227.ap-south-1.compute.amazonaws.com:8081/repository/java-maven-app-releases/</url>
+      <id>java-maven-releases</id>
+      <url>http://ec2-65-0-116-44.ap-south-1.compute.amazonaws.com:8081/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
 </project>
