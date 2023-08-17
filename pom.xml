@@ -78,18 +78,18 @@
  <repositories>
     <repository>
       <id>java-maven-group</id>
-      <url>http://ec2-65-0-116-44.ap-south-1.compute.amazonaws.com:8081/repository/maven-group/</url>
+      <url>http://172.31.26.141:8081/repository/maven-group/</url>
     </repository>
   </repositories>
 
     <distributionManagement>
     <snapshotRepository>
       <id>java-maven-snapshots</id>
-      <url>http://ec2-65-0-116-44.ap-south-1.compute.amazonaws.com:8081/repository/maven-snapshots/</url>
+      <url>http://172.31.26.141:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
     <repository>
       <id>java-maven-releases</id>
-      <url>http://ec2-65-0-116-44.ap-south-1.compute.amazonaws.com:8081/repository/maven-releases/</url>
+      <url>http://172.31.26.141:8081/repository/maven-releases/</url>
     </repository>
   </distributionManagement>
 </project>
